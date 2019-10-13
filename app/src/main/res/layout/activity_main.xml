@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#28a8a8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/yLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/mLabel"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="July"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:background="#4f6b6b"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/dLabel"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:text="6"
+        android:textSize="50sp"
+        android:textColor="#414145"
+        android:background="#f5f5fa"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/eLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sun"
+        android:textSize="18sp"
+        android:textColor="#206757"
+        android:gravity="center"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="80dp"/>
+
+
+</LinearLayout>
